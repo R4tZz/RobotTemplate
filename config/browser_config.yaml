@@ -1,0 +1,24 @@
+default_browser:
+  headless: true  # Run the browser in headless mode (no GUI)
+  browser: "chromium"  # You can also use "firefox" or "webkit"
+  viewport_width: 1920  # Set the browser window width
+  viewport_height: 1024  # Set the browser window height
+  timeout: 30  # Timeout for browser actions in seconds
+  implicit_wait: 10  # Implicit wait for elements to appear (in seconds)
+  enable_javascript: true  # Enable JavaScript (set to false to disable)
+  locale: "fi-FI"  # Set the browser locale
+  slow_motion: 0s  # Slow down browser actions by the specified amount of milliseconds
+  tracing: false  # Enable browser tracing
+  record_video: null  # Record a video of the browser session
+debug_browser:
+  headless: false  # Run the browser in headless mode (no GUI)
+  browser: "chromium"  # You can also use "firefox" or "webkit"
+  viewport_width: 1920  # Set the browser window width
+  viewport_height: 1024  # Set the browser window height
+  timeout: 30  # Timeout for browser actions in seconds
+  implicit_wait: 10  # Implicit wait for elements to appear (in seconds)
+  locale: "fi-FI"  # Set the browser locale
+  slow_motion: 1s  # Slow down browser actions by the specified amount of milliseconds
+  tracing: true  # Enable browser tracing
+  record_video: 
+      dir: ./ # Record a video of the browser session

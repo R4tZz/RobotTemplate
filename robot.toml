@@ -1,0 +1,12 @@
+output-dir = "results"
+languages = ["en"]
+log-level = "info"
+
+[variables]
+browser_config = "default"
+env_config = "dev"
+
+[profiles.debug]
+output-dir = "results"
+log-level = "debug"
+variables = { browser_config = "debug" }

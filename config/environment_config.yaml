@@ -1,0 +1,6 @@
+dev_env:
+  base_url: "http://localhost:4200"
+  api_url: "http://localhost:8080"
+qa_env:
+  base_url: "https://qa.example.com"
+  api_url: "https://qa-api.example.com"
